@@ -10,8 +10,9 @@ those who use Debian just execute this command on your terminal:
 >`sudo apt-get install sbcl`
 
 After you have installed Lisp in your machine open the terminal and use `sbcl`
-to start using a interactive shell for lisp. Loading the scripts is quite a easy
-job, just use the macro `(load "simple_db.lisp")` and the script will be loaded.
+to start using a interactive shell for lisp.
+
+To Load the scripts just use the macro `(load "simple_db.lisp")`.
 
 The avaliable functions are:
 * add-cds -> Add new cds to the lisp
